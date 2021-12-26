@@ -10,7 +10,6 @@ Note that this app only focuses on server-side JavaScript testing.
 
 * Node.js - [https://nodejs.org/](https://nodejs.org/)
 
-
 ## Getting Started
 
 * Clone the repo
