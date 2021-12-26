@@ -6,7 +6,6 @@ This project is a simple express app for demonstrating testing and code coverage
 Jest is also used for mocking functions and measuring code coverage.
 Note that this app only focuses on server-side JavaScript testing.
 
-
 ## Requirements
 
 * Node.js - [https://nodejs.org/](https://nodejs.org/)
