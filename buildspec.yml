@@ -24,4 +24,4 @@ artifacts:
   name: artifact
 cache:
   paths:
-     - "/root/.m2/**/*"
+     - "**/node_modules/**/*"
