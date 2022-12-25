@@ -9,7 +9,7 @@
   "main": "app/server.js",
   "scripts": {
     "start": "nodemon app/server.js",
-    "build": "babel src -s -D -d dist",
+    "build": "babel app -s -D -d dist",
     "test": "npm run lint && npm run jest",
     "test:e2e": "jest --runInBand e2e_tests/*.test.js",
     "jest": "jest --coverage app/__tests__/*.test.js",
