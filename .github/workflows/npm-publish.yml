@@ -1,10 +1,7 @@
 name: NodeJS CI workflow
 
 on:
-  push:
-concurrency:
-  group: environment-${{ github.ref }}
-  cancel-in-progress: true
+   workflow_dispatch:
 jobs:
   node_build:
     strategy:
@@ -25,7 +22,7 @@ jobs:
         key: ${{ runner.os }}-cache
     - name: NodeJS Build Process
       run: |
-        npm install
-        npm run build --if-present
-        npm run test
-        npm run test:e2e
+       npm install
+       npm run build --if-present
+       npm run test
+       npm run test:e2e
