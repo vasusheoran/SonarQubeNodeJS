@@ -30,3 +30,9 @@ jobs:
     - name: NodeJS Artifact packaging
       run: |
        zip -r NodePackages.zip dist
+
+    - name: Use the Upload Artifact GitHub Action
+      uses: actions/upload-artifact@v3
+      with: 
+        name: NodeArtifacts
+        path: "NodePackages.zip"
