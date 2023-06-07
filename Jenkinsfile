@@ -14,7 +14,7 @@ pipeline {
                 echo 'Code Build'
 				sh """
 					ls -lart
-					npm1 install
+					npm install
 					npm run build
 				"""
             }
