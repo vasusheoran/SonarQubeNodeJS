@@ -21,8 +21,8 @@ env:
   #build-graph:
 phases:
   install:
-    #runtime-versions:
-      # name: version
+    runtime-versions:
+      nodejs: 16
       # name: version
     commands:
        - "apt update && apt -y install tree"
