@@ -22,7 +22,7 @@ env:
 phases:
   install:
     runtime-versions:
-      nodejs: 16
+      nodejs: 20
       # name: version
     commands:
        - "apt update && apt -y install tree"
